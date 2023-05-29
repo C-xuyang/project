@@ -1,0 +1,18 @@
+import React from 'react'
+import { Breadcrumb, Layout, Menu } from 'antd';
+const { Header, Content, Footer, Sider } = Layout;
+export default function Menu2_1() {
+  return (
+    <Content>
+            <div
+              className="site-layout-background"
+              style={{
+                padding: 24,
+                minHeight: 360,
+              }}
+            >
+              子菜单2-1
+            </div>
+          </Content>
+  )
+}
